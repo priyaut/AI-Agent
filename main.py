@@ -18,7 +18,7 @@ class ResearchResponse(BaseModel):
     
 
 # llm = ChatAnthropic(model="claude-sonnet-4-20250514")
-llm = ChatMistralAI(model="mistral-small", mistral_api_key="NcGp4Bt57JlGoCEg1Xe1KhBfX684P3j4")
+llm = ChatMistralAI(model="mistral-small")
 parser = PydanticOutputParser(pydantic_object=ResearchResponse)
 
 prompt = ChatPromptTemplate.from_messages(
