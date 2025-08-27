@@ -1,4 +1,4 @@
-**🧠 Agentic Workflow**
+**🧠 AI Agent **
 A lightweight framework for building autonomous AI agents that can reason, plan, and act.
 
 **⚙️ Features**
